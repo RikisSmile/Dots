@@ -2,9 +2,7 @@ code
 hyprland
 vim 
 neovim
-waypaper-git
 waybar
-google-chrome
 fastfetch
 rofi
 gtk3
@@ -12,3 +10,6 @@ gtk4
 dunst
 fish
 kitty
+hyprpaper
+sddm
+// waypaper-git
