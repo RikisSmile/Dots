@@ -1,0 +1,16 @@
+// FOR manual now, implement the srcipt
+code
+hyprland
+vim 
+nevim
+waypaper-git
+waybar
+google-chrome
+fastfetch
+rofi
+gtk-3.0
+gtk-4.0
+dunst
+wal
+fish
+kitty
