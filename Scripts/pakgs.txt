@@ -1,16 +1,14 @@
-// FOR manual now, implement the srcipt
 code
 hyprland
 vim 
-nevim
+neovim
 waypaper-git
 waybar
 google-chrome
 fastfetch
 rofi
-gtk-3.0
-gtk-4.0
+gtk3
+gtk4
 dunst
-wal
 fish
 kitty

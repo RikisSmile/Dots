@@ -11,7 +11,7 @@ def get_line_from_file(filename, line_number):
     except FileNotFoundError:
         return "File not found."
 
-
+"""
 def remove(str):
     try:
         # Attempt to install the PHP package
@@ -20,9 +20,17 @@ def remove(str):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-def install(str):
+"""
+def install_pacman(str):
     try:
-        # Attempt to install the PHP package
+        pacman.install(str)
+        print(f"{str} installed successfully.")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
+def install_aur(str):
+    try:
+        pacman.set_bin("yay")
         pacman.install(str)
         print(f"{str} installed successfully.")
     except Exception as e:
@@ -30,18 +38,15 @@ def install(str):
 
 
 
-
-
-
 if __name__ == "__main__":
     packages = []
     packagesN = 2
 
-    filename = 'packgs.txt'
+    filename = 'pakgs.txt'
     
     for i in range(1, packagesN+1):
         lineContent = get_line_from_file(filename, i)
         packages.append(lineContent)
 
     for i in range(0, packagesN):
-        print(packages[i])
+        install_pacman(packages[i])
