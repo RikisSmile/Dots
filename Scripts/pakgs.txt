@@ -12,4 +12,5 @@ fish
 kitty
 hyprpaper
 sddm
-// waypaper-git
+swww
+waypaper-git

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/mylivewallpapers-com-Ayaka-and-Ganyu-Genshin-Impact-FHD.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#16070f",
+        "foreground": "#e8e1e4",
+        "cursor": "#e8e1e4"
+    },
+    "colors": {
+        "color0": "#16070f",
+        "color1": "#A8758F",
+        "color2": "#9C8A9C",
+        "color3": "#A195A7",
+        "color4": "#DFA5AA",
+        "color5": "#A2ABCF",
+        "color6": "#DBC0C7",
+        "color7": "#e8e1e4",
+        "color8": "#a29d9f",
+        "color9": "#A8758F",
+        "color10": "#9C8A9C",
+        "color11": "#A195A7",
+        "color12": "#DFA5AA",
+        "color13": "#A2ABCF",
+        "color14": "#DBC0C7",
+        "color15": "#e8e1e4"
+    }
+}

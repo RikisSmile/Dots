@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/raima/wallpapers/cool.jpg"
+let background = "#090a11"
+let foreground = "#e5ccc6"
+let cursor     = "#e5ccc6"
+
+" Colors
+let color0  = "#090a11"
+let color1  = "#62667A"
+let color2  = "#5F6982"
+let color3  = "#737489"
+let color4  = "#8B7D80"
+let color5  = "#827E92"
+let color6  = "#9B8B9C"
+let color7  = "#e5ccc6"
+let color8  = "#a08e8a"
+let color9  = "#62667A"
+let color10 = "#5F6982"
+let color11 = "#737489"
+let color12 = "#8B7D80"
+let color13 = "#827E92"
+let color14 = "#9B8B9C"
+let color15 = "#e5ccc6"

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/anime-girl-balcony-bars.png",
+    "alpha": "100",
+    "special": {
+        "background": "#050708",
+        "foreground": "#f1decc",
+        "cursor": "#f1decc"
+    },
+    "colors": {
+        "color0": "#050708",
+        "color1": "#2B7B82",
+        "color2": "#697287",
+        "color3": "#9B999D",
+        "color4": "#C9AF99",
+        "color5": "#D1BAAA",
+        "color6": "#EBD19F",
+        "color7": "#f1decc",
+        "color8": "#a89b8e",
+        "color9": "#2B7B82",
+        "color10": "#697287",
+        "color11": "#9B999D",
+        "color12": "#C9AF99",
+        "color13": "#D1BAAA",
+        "color14": "#EBD19F",
+        "color15": "#f1decc"
+    }
+}

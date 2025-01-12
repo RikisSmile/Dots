@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/wallpaper/kath.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050512",
+        "foreground": "#ade5f2",
+        "cursor": "#ade5f2"
+    },
+    "colors": {
+        "color0": "#050512",
+        "color1": "#2A519E",
+        "color2": "#585EA0",
+        "color3": "#3B6CCD",
+        "color4": "#A66C88",
+        "color5": "#2C9EE7",
+        "color6": "#5F9BE1",
+        "color7": "#ade5f2",
+        "color8": "#79a0a9",
+        "color9": "#2A519E",
+        "color10": "#585EA0",
+        "color11": "#3B6CCD",
+        "color12": "#A66C88",
+        "color13": "#2C9EE7",
+        "color14": "#5F9BE1",
+        "color15": "#ade5f2"
+    }
+}

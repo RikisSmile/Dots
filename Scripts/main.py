@@ -39,14 +39,31 @@ def install_aur(str):
 
 
 if __name__ == "__main__":
-    packages = []
-    packagesN = 2
+    packagesPacman = []
+    packagesAur    = []
+
+    packagesPacmanN = 15
+    packagesAurN = packagesPacmanN + 1;
 
     filename = 'pakgs.txt'
     
-    for i in range(1, packagesN+1):
+    # Read Pacman packages
+    for i in range(1, packagesPacmanN + 1):
         lineContent = get_line_from_file(filename, i)
-        packages.append(lineContent)
+        if lineContent and lineContent != "Line number out of range." and lineContent != "File not found.":
+            packagesPacman.append(lineContent)
 
-    for i in range(0, packagesN):
-        install_pacman(packages[i])
+    # Read AUR packages
+    for i in range(packagesPacmanN + 1, packagesAurN + 1):
+        lineContent = get_line_from_file(filename, i)
+        if lineContent and lineContent != "Line number out of range." and lineContent != "File not found.":
+            packagesAur.append(lineContent)
+
+    # Install Pacman packages
+    for package in packagesPacman:
+        install_pacman(package)
+
+    # Install AUR packages
+    for package in packagesAur:
+        install_aur(package)
+    

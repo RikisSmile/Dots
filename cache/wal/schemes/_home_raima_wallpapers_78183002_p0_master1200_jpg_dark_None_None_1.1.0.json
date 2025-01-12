@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/78183002_p0_master1200.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#192433",
+        "foreground": "#e1ecf0",
+        "cursor": "#e1ecf0"
+    },
+    "colors": {
+        "color0": "#192433",
+        "color1": "#A1B8C9",
+        "color2": "#A7CCDB",
+        "color3": "#B2D9E7",
+        "color4": "#93E3F6",
+        "color5": "#B0E6F4",
+        "color6": "#DCD4D7",
+        "color7": "#e1ecf0",
+        "color8": "#9da5a8",
+        "color9": "#A1B8C9",
+        "color10": "#A7CCDB",
+        "color11": "#B2D9E7",
+        "color12": "#93E3F6",
+        "color13": "#B0E6F4",
+        "color14": "#DCD4D7",
+        "color15": "#e1ecf0"
+    }
+}

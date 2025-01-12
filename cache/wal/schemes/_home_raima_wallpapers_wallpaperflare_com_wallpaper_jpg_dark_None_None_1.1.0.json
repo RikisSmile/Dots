@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/wallpaperflare.com_wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0b090a",
+        "foreground": "#d7c2ab",
+        "cursor": "#d7c2ab"
+    },
+    "colors": {
+        "color0": "#0b090a",
+        "color1": "#3E4154",
+        "color2": "#4C4853",
+        "color3": "#6E574E",
+        "color4": "#787E7B",
+        "color5": "#A05B34",
+        "color6": "#956D52",
+        "color7": "#d7c2ab",
+        "color8": "#968777",
+        "color9": "#3E4154",
+        "color10": "#4C4853",
+        "color11": "#6E574E",
+        "color12": "#787E7B",
+        "color13": "#A05B34",
+        "color14": "#956D52",
+        "color15": "#d7c2ab"
+    }
+}
