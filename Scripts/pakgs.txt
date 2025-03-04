@@ -1,4 +1,4 @@
-code
+vscodium
 hyprland
 vim 
 neovim

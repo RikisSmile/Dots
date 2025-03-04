@@ -8,6 +8,9 @@ Repo should contain:
 
  -- Scipt that install the pakgs; move config into the /home/{user}/.config location
 
+ // Optional 
+ -- Script that install dev stuff
+
  -- Scrip should be based on python (https://github.com/peakwinter/python-pacman)
 
 -- config folder (contain the all config)
