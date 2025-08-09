@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/mylivewallpapers-com-Fern-And-Frieren-4K.gif",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0d16",
+        "foreground": "#dddbe2",
+        "cursor": "#dddbe2"
+    },
+    "colors": {
+        "color0": "#0d0d16",
+        "color1": "#8A7893",
+        "color2": "#A598A2",
+        "color3": "#CEAC9F",
+        "color4": "#B2B3CB",
+        "color5": "#C8BCCE",
+        "color6": "#D2C4C2",
+        "color7": "#dddbe2",
+        "color8": "#9a999e",
+        "color9": "#8A7893",
+        "color10": "#A598A2",
+        "color11": "#CEAC9F",
+        "color12": "#B2B3CB",
+        "color13": "#C8BCCE",
+        "color14": "#D2C4C2",
+        "color15": "#dddbe2"
+    }
+}

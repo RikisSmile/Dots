@@ -60,7 +60,7 @@
 #   a modern high-speed standard.
 
 if ! command -v nmcli &>/dev/null; then
-  echo "{\"text\": \"󰤮\", \"tooltip\": \"nmcli utility is missing\"}"
+  echo "{\"text\": \"<span color='#f38ba8'>󰤫</span>\", \"tooltip\": \"nmcli utility is missing\"}"
   exit 1
 fi
 
@@ -95,7 +95,7 @@ else
 
   active_device=$(nmcli -t -f DEVICE,STATE device status |
     grep -w "connected" |
-    grep -v -E "^(dummy|lo:)" |
+    grep -v -E "^(dummy|lo:|virbr0)" |
     awk -F: '{print $1}')
 
   if [ -n "$active_device" ]; then
@@ -135,7 +135,7 @@ else
     # Get the current Wi-Fi ESSID
     essid=$(echo "$wifi_info" | awk -F: '{print $2}')
 
-    tooltip="${essid}\n"
+    tooltip=":: ${essid}"
     tooltip+="\nIP Address: ${ip_address}"
     # tooltip+="\nRouter:      ${gateway}"
     # tooltip+="\nMAC Address: ${mac_address}"
@@ -169,7 +169,7 @@ elif [ "$signal" -ge 40 ]; then
 elif [ "$signal" -ge 20 ]; then
   icon="󰤟" # Very weak signal
 else
-  icon="󰤮" # No signal
+  icon="<span color='#f38ba8'>󰤯</span>" # No signal
 fi
 
 # Module and tooltip

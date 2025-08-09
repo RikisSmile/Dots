@@ -31,3 +31,5 @@ echo "Foreground: $foreground"
 echo "Abg: $colorForActiveBg"
 echo "Affg: $colorForActiveFg"
 echo "Icon: $colorForIcon"
+
+

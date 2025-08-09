@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/wallHO.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0e17",
+        "foreground": "#e2cbe5",
+        "cursor": "#e2cbe5"
+    },
+    "colors": {
+        "color0": "#0f0e17",
+        "color1": "#544BA9",
+        "color2": "#5C5BA2",
+        "color3": "#996AA5",
+        "color4": "#AE69C2",
+        "color5": "#578ECA",
+        "color6": "#B091BE",
+        "color7": "#e2cbe5",
+        "color8": "#9e8ea0",
+        "color9": "#544BA9",
+        "color10": "#5C5BA2",
+        "color11": "#996AA5",
+        "color12": "#AE69C2",
+        "color13": "#578ECA",
+        "color14": "#B091BE",
+        "color15": "#e2cbe5"
+    }
+}

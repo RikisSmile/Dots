@@ -1,41 +1,39 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+@define-color background alpha(@theme_bg_color, 0.9);
+@define-color border alpha(@color11, 0.3);
+@define-color hover alpha(@accent_bg_color, 0.5);
+
 window {
-  background: rgba(0, 0, 0, 0.8);
-	border-radius: 10px;
-	border-style: solid;
-	border-width: 3px;
-	border-color: #ffffff;
-	opacity:0.8;
+  background: transparent;
 }
 
 #box {
-  /* Define attributes of the box surrounding icons here */
-  padding: 10px
+  background: @background;
+  border-radius: 6px;
+  border: 2px solid @border;
+  padding: 2px;
+  margin: 5px;
 }
 
-#active {
-	/* This is to underline the button representing the currently active window */
-	border-bottom: solid 0px;
-	border-color: #FFFFFF
-}
-
-button, image {
-	background: none;
-	border-style: none;
-	box-shadow: none;
-	color: #999
+button,
+image {
+  background: none;
+  border-style: none;
+  box-shadow: none;
+  color: transparent;
 }
 
 button {
-	padding: 4px;
-	margin-left: 4px;
-	margin-right: 4px;
-	color: #eee;
-  font-size: 12px
+  padding: 4px;
+  margin: 2px;
+  color: transparent;
+  font-size: 12px;
 }
 
 button:hover {
-	background-color: rgba(255, 255, 255, 0.15);
-	border-radius: 10px;
+  background-color: alpha(@hover, 0.5);
+  border-radius: 3px;
 }
 
 button:focus {

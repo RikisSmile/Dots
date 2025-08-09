@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpapers/yakuza.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#101015",
+        "foreground": "#c7c5bb",
+        "cursor": "#c7c5bb"
+    },
+    "colors": {
+        "color0": "#101015",
+        "color1": "#68655B",
+        "color2": "#777467",
+        "color3": "#817E70",
+        "color4": "#7F8170",
+        "color5": "#8B8878",
+        "color6": "#9A9684",
+        "color7": "#c7c5bb",
+        "color8": "#8b8982",
+        "color9": "#68655B",
+        "color10": "#777467",
+        "color11": "#817E70",
+        "color12": "#7F8170",
+        "color13": "#8B8878",
+        "color14": "#9A9684",
+        "color15": "#c7c5bb"
+    }
+}

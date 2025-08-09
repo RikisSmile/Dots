@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/raima/wallpaper/building_cyber.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0c0e",
+        "foreground": "#acd1db",
+        "cursor": "#acd1db"
+    },
+    "colors": {
+        "color0": "#0d0c0e",
+        "color1": "#5D5E7C",
+        "color2": "#176E8E",
+        "color3": "#576C8B",
+        "color4": "#A86E87",
+        "color5": "#308BA8",
+        "color6": "#549CB4",
+        "color7": "#acd1db",
+        "color8": "#789299",
+        "color9": "#5D5E7C",
+        "color10": "#176E8E",
+        "color11": "#576C8B",
+        "color12": "#A86E87",
+        "color13": "#308BA8",
+        "color14": "#549CB4",
+        "color15": "#acd1db"
+    }
+}
